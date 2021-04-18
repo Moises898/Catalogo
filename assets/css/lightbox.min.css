@@ -1,7 +1,7 @@
 .lb-loader,.lightbox{
 	text-align:center;
 	line-height:0;
-	position:fixed;
+	position:absolute;
 	left:0}
 	body.lb-disable-scrolling{overflow:hidden}
 .lightboxOverlay{position:absolute;top:0;left:0;z-index:9999;background-color:#000;filter:alpha(Opacity=80);opacity:.92;display:none}
