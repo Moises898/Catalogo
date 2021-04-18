@@ -1,0 +1,64 @@
+input[type="radio"] {
+  display: none;
+  
+  
+}
+
+label {
+  margin: 0px 10px;
+  cursor: pointer;
+
+}
+
+
+input[type="radio"]:checked+label { 
+  color: #151515;
+  transition: ease-in-out 0.3s;
+  padding: 10px 20px;
+  background-color: #ffc451;
+  border-radius: 5px;
+
+ }
+
+@media screen and (max-width: 456px) {
+
+}
+
+
+.categorias label {
+	color: #9B9B9B;
+	margin: 10px 20px;
+	font-size: 18px;
+	font-weight: 700;
+
+}
+.categorias label:hover{
+	color: #151515;
+  transition: ease-in-out 0.3s;
+}
+
+ #pisos:checked ~ #elementos .alfombras{
+  display: none;
+}
+
+ #pisos:checked ~ #elementos .persianas {
+  display: none;
+}
+
+
+#elementos img{
+  
+  width: 100%;
+  box-shadow: 5px 5px 5px gray;
+  transition: all ease-in-out 0.3s;
+  box-sizing: border-box;
+  background-size: contain;
+  margin-bottom: 50px;
+}
+
+#elementos img:hover{
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+
+}
