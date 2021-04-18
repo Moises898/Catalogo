@@ -21,7 +21,10 @@ input[type="radio"]:checked+label {
 
 @media screen and (max-width: 456px) {
     .categorias{
-      margin: .5px;
+      margin: 1px;
+    }
+    .categorias label{
+      font-size: 14px;
     }
 
 }
