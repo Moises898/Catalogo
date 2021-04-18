@@ -542,10 +542,10 @@ section {
 }
 @media screen and (max-width: 456px) {
   .section-title h2::after {
-  display: none;
+  font-size: 10px;
   }  
   .section-title h2 {
-  display: none;
+    font-size: 10px;
   }
   #home{
     padding-top: 80%;
