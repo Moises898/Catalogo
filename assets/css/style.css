@@ -708,14 +708,14 @@ section {
   border: 1px solid #ebebeb;
   padding: 20%;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: url("../img/about.jpg") fixed center center;
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #ffc451;
+  
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -725,7 +725,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #151515;
+  color: transparent;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -737,7 +737,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #151515;
+  color: #ffffff;
   transition: ease-in-out 0.3s;
 }
 
@@ -749,6 +749,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  color: #ffffff;
 }
 
 .services .icon-box:hover {
