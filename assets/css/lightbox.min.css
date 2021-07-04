@@ -62,7 +62,13 @@
 	.lightbox{
 		padding-top: 60%;
 		padding-bottom: 100;
-		background-position-x: 0;
-		background-position-y:0;
+		position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
 	}
 }
