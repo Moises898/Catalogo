@@ -62,5 +62,7 @@
 	.lightbox{
 		padding-top: 60%;
 		padding-bottom: 100;
+		background-position-x: 0;
+		background-position-y:0;
 	}
 }
